@@ -10,6 +10,7 @@ def position_taken?(board,i)
  end
 end
 
+
 def valid_move?(board, i)
   
   if i.between?(0,8) && !position_taken?(board,i)
